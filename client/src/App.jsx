@@ -3,7 +3,7 @@
 //import viteLogo from '/vite.svg'
 //import './App.css'
 import Customizer from "./pages/Customizer"
-import Canvas from "./canvas"
+import CanvasModel from "./canvas"
 import Home from "./pages/Home"
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   return (
     <main className="app transition-all ease-in">
      <Home/>
-     <Canvas/>
+     <CanvasModel/>
      <Customizer/>
     </main>
   )
